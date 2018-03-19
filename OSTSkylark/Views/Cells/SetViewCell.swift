@@ -113,9 +113,9 @@ final class SetViewCell: UITableViewCell {
     
     func updateFavoriteButton() {
         if isFavorite {
-            btnFavorite.imageView?.image = UIImage(named: "favorite_selected")
+            btnFavorite.setImage(UIImage(named: "favorite_selected"), for: .normal)
         } else {
-            btnFavorite.imageView?.image = UIImage(named: "favorite")
+            btnFavorite.setImage(UIImage(named: "favorite"), for: .normal)
         }
     }
 }
