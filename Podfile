@@ -1,7 +1,7 @@
 
 platform :ios, '11.2'
 
-target 'OSTSkylark' do
+target 'OSTModern' do
   use_frameworks!
 
     pod 'Alamofire'
